@@ -1,15 +1,63 @@
-﻿body {
-    font-family:'Segoe UI';
-    font-size:14px;
-    background-color:#fcfcfc;
+﻿html, body {
+    height:100%;
+}
+body {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    background-color: #fcfcfc;
+    padding: 0px;
+    margin: 0px;
 }
 .social {
     width:20px;
     height:20px;
 }
 #profile {
-    width:100px;
-    height:100px;
+    width: 70px;
+    height: 70px;
     border: 2px dashed #555;
-    border-radius:50px;
+    border-radius: 50px;
+}
+div#left {
+    background-color: #293779;
+    width: 200px;
+    float: left;
+    height:100%;
+}
+div#top {
+    background-color: #588843;
+    margin-left: 200px;
+    height: 75px;
+}
+div#center {
+    background-color: #dde27f;
+    margin-left: 200px;
+}
+.siteHeader {
+    margin: 0px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+.headerRight{
+    float:right;
+    width:200px;
+}
+#left ul {
+    list-style: none;
+    color: #FFF;
+    list-style: none;
+    color: #FFF;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+#left ul li {
+    padding: 10px;
+    border: 1px solid #efc06a;
+}
+#left ul li:hover{
+    background-color:#dde27f;
+    color:#000;
+    cursor:pointer;
 }
